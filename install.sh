@@ -16,6 +16,8 @@ if type git >/dev/null 2>&1; then
     for i in ${items[@]}; do
         ln -snfv "${DOTFILES}/$i" "${HOME}/$i"
     done
+
+    source "${HOME}/.zshrc"
 else
     echo "Error: git is not found."
 fi
