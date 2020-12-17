@@ -8,9 +8,6 @@ alias lt="ls -T -L 1"
 alias lta="lt -a"
 alias c="clear"
 alias ..="cd .."
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -i"
 
 # plugin
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

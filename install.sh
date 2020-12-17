@@ -10,8 +10,9 @@ if type git >/dev/null 2>&1; then
     git clone "https://github.com/zsh-users/zsh-autosuggestions.git" "${DOTFILES}/.zsh/zsh-autosuggestions"
     git clone "https://github.com/zsh-users/zsh-syntax-highlighting.git" "${DOTFILES}/.zsh/zsh-syntax-highlighting"
 
-    items=(".zshrc" ".gitconfig" ".config/starship.toml" ".zsh")
+    items=(".zshrc" ".gitconfig" ".vimrc" ".config" ".zsh")
     rm -rf "${HOME}/.zsh"
+    rm -rf "${HOME}/.config"
 
     echo -e "\nLinking..."
     for i in ${items[@]}; do
