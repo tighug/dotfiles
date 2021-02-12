@@ -6,6 +6,6 @@
 curl -L raw.githubusercontent.com/tighug/dotfiles/main/install.sh | zsh
 ```
 
-## LICENSE
+## License
 
 [MIT](./LICENSE)
