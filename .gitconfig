@@ -1,5 +1,7 @@
 [user]
 	name = tighug
-	email = kapuriko123@gmail.com
+	email = tighug.4696@gmail.com
 [core]
 	editor = vim
+[pull]
+	rebase = false
