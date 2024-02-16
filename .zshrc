@@ -8,6 +8,7 @@ alias lt="ls -T -L 1"
 alias lta="lt -a"
 alias c="clear"
 alias ..="cd .."
+alias python="python3"
 
 # plugin
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
