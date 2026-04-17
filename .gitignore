@@ -29,3 +29,5 @@ Temporary Items
 !.zsh/completion
 
 .config/yarn
+.config/uv/
+.config/gh/hosts.yml
