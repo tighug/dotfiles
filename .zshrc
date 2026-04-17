@@ -12,6 +12,7 @@ alias python="python3"
 alias cc="claude"
 alias ccd="claude --dangerously-skip-permissions"
 alias cca="claude --enable-auto-mode"
+alias python="python3"
 
 # plugin
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
