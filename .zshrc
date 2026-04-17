@@ -9,6 +9,9 @@ alias lta="lt -a"
 alias c="clear"
 alias ..="cd .."
 alias python="python3"
+alias cc="claude"
+alias ccd="claude --dangerously-skip-permissions"
+alias cca="claude --enable-auto-mode"
 
 # plugin
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -34,3 +37,5 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export GROFF_NO_SGR=1
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+export CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1
