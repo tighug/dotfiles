@@ -37,5 +37,9 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export GROFF_NO_SGR=1
 
 export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# mise
+eval "$(/home/tighug/.local/bin/mise activate zsh)"
 
 export CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1
