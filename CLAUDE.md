@@ -13,7 +13,7 @@ tighug 個人用の dotfiles リポジトリ。設定ファイルは `install.sh
 curl -L raw.githubusercontent.com/tighug/dotfiles/main/install.sh | zsh
 ```
 
-インストールスクリプトは `.zshrc`、`.gitconfig`、`.vimrc`、`.config/`、`.zsh/`、`.claude/statusline.py` をホームディレクトリにシンボリックリンクする。リンク先にシンボリックリンクでない実体が既にある場合はタイムスタンプ付きでバックアップしてから上書きするため、再実行しても安全。注意: `.wezterm.lua` は install スクリプトの管理対象**外**で、Windows ホスト側へ手動で配置する必要がある。
+インストールスクリプトは `.zshrc`、`.gitconfig`、`.vimrc`、`.config/`、`.zsh/`、`.claude/statusline.py`、`.claude/CLAUDE.md` をホームディレクトリにシンボリックリンクする。リンク先にシンボリックリンクでない実体が既にある場合はタイムスタンプ付きでバックアップしてから上書きするため、再実行しても安全。注意: `.wezterm.lua` は install スクリプトの管理対象**外**で、Windows ホスト側へ手動で配置する必要がある。
 
 ## アーキテクチャ
 
@@ -33,7 +33,7 @@ curl -L raw.githubusercontent.com/tighug/dotfiles/main/install.sh | zsh
 | gh | `.config/gh/config.yml` | GitHub CLI（HTTPS、`pr checkout` の `co` エイリアス） |
 | git | `.config/git/ignore` | グローバル gitignore（`.claude/settings.local.json` を除外） |
 | mimeapps.list | `.config/mimeapps.list` | `claude-cli://` スキームハンドラーの登録 |
-| Claude Code | `.claude/statusline.py` | カスタムステータスライン |
+| Claude Code | `.claude/statusline.py`, `.claude/CLAUDE.md` | カスタムステータスライン、グローバル指示 |
 
 ## Claude Code 連携
 
