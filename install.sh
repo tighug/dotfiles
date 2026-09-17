@@ -27,4 +27,12 @@ for i in ${items[@]}; do
     ln -snfv "${DOTFILES}/$i" "${target}"
 done
 
+target="${HOME}/.claude/statusline.py"
+mkdir -p "${HOME}/.claude"
+if [[ -e "${target}" && ! -L "${target}" ]]; then
+    echo "Backing up existing ${target} to ${target}${backup_suffix}"
+    mv "${target}" "${target}${backup_suffix}"
+fi
+ln -snfv "${DOTFILES}/.claude/statusline.py" "${target}"
+
 echo -e "\nDone. Run 'source ~/.zshrc' or open a new shell to apply."
